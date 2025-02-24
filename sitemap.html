@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта сайта</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+        }
+        .sitemap {
+            list-style: none;
+            padding: 0;
+        }
+        .sitemap li {
+            margin: 10px 0;
+        }
+        .sitemap a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .sitemap a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Карта сайта</h2>
+        <ul class="sitemap">
+            <li>
+                <a href="#"><i class="fas fa-home"></i> Главная</a>
+                <ul id="sec1" class="sub-menu">
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" ><i class="fas fa-calendar-alt"></i> Конференции</a>
+                <ul id="sec2" class="sub-menu">
+                    <li><a href="#">Будущие события</a></li>
+                    <li><a href="#">Прошедшие события</a></li>
+                    <li><a href="#">Создать конференцию</a></li>
+                    <li><a href="#">Удалить конференцию</a></li>
+                    <li><a href="#">Изменить конференцию</a></li>
+                    <li><a href="#">Пригласить друзей</a></li>
+                    <li><a href="#">Профиль</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fas fa-life-ring"></i> Поддержка</a>
+                <ul id="sec3" class="sub-menu">
+                    <li><a href="#">Частые вопросы</a></li>
+                    <li><a href="#">Свяжитесь с нами</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

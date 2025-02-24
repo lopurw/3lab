@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Информация о предстоящих и прошедших онлайн-конференциях, создание и управление событиями."
+    />
+    <meta
+      name="keywords"
+      content="онлайн-конференции, вебинары, конференция минск, платформа для конференций, мероприятия"
+    />
+    <title>Конференции</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="conference.html">Конференции</a></li>
+            <li><a href="support.html">Поддержка</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main style="padding: 0 40px">
+      <section id="future-events">
+        <h1>Будущие события</h1>
+        <h2>Следите за нашими предстоящими конференциями</h2>
+        <div class="events-grid">
+          <div class="event-card">
+            <h3>Вебинар по цифровому маркетингу</h3>
+            <h4>Когда?</h4>
+            <h5>5 марта 2025</h5>
+            <a href="#" class="cta-btn">Записаться</a>
+          </div>
+          <div class="event-card">
+            <h3>Онлайн конференция по искусственному интеллекту</h3>
+            <h4>Когда?</h4>
+            <h5>15 марта 2025</h5>
+            <a href="#" class="cta-btn">Записаться</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="past-events">
+        <h2>Прошедшие события</h2>
+        <div class="events-grid">
+          <div class="event-card">
+            <h3>Технологии будущего</h3>
+            <h4>Дата проведения</h4>
+            <h5>12 февраля 2025</h5>
+            <a href="#" class="cta-btn">Посмотреть запись</a>
+          </div>
+          <div class="event-card">
+            <h3>Будущее веб-разработки</h3>
+            <h4>Дата проведения</h4>
+            <h5>10 февраля 2025</h5>
+            <a href="#" class="cta-btn">Посмотреть запись</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="create-conference">
+        <div class="form_create">
+          <h2>Создать конференцию</h2>
+          <h3>Заполните форму</h3>
+          <form action="#">
+            <label for="conference-name">Название конференции:</label>
+            <input type="text" id="conference-name" required />
+            <label for="conference-date">Дата события:</label>
+            <input type="date" id="conference-date" required />
+            <button type="submit" class="cta-btn">Создать</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h6 style="color: aliceblue">
+        &copy; 2025 Онлайн Конференции. Все права защищены.
+      </h6>
+    </footer>
+  </body>
+</html>
